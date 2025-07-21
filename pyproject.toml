@@ -10,17 +10,17 @@ authors = [{name = "Han Ruihua", email = "hanrh@connect.hku.hk"}]
 description = "NeuPAN"
 readme = "README.md"
 dependencies = [
-    'cvxpylayers',
-    'numpy',
-    'scipy',
-    'rich',
-    'dill',
-    'gctl==1.2',
-    'colorama',
-    'scikit-learn',
-    'pyyaml',
-    "torch>=2.1.0",
-    "ecos",
+    "colorama>=0.4.6",
+    "cvxpylayers>=0.1.9",
+    "dill>=0.4.0",
+    "ecos>=2.0.14",
+    "gctl>=1.2",
+    "ir-sim>=2.6.0",
+    "pyyaml>=6.0.2",
+    "rich>=14.0.0",
+    "scikit-learn>=1.7.1",
+    "scipy<=1.10",
+    "torch>=2.7.1",
 ]
 
 [project.optional-dependencies]
